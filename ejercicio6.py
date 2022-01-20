@@ -1,5 +1,5 @@
 import urllib.request
-webpage = urllib.request.urlopen("https://as.com")
+webPage = urllib.request.urlopen("https://www.as.com")
 frase = webPage.read()
 print(frase)
 
