@@ -2,8 +2,9 @@
 #Busque cuantas veces aparece independientemente si está en mayúsculas o minúsculas.
 
 
-frase = "EN UN LUGAR DE LA MANCHA, LA MANCHA ES UNA REGION"
+frase = "En un lugar de la Mancha, la Mancha es una región"
+fraseMayusculas = frase.upper()
 textoABuscar = input("Introduce un texto a buscar:")
-textoABuscar = textoABuscar.upper()
-numeroOcurrencias = frase.count(textoABuscar)
+textoABuscarMayusculas = textoABuscar.upper()
+numeroOcurrencias = fraseMayusculas.count(textoABuscarMayusculas)
 print("El texto buscado ha aparecido",numeroOcurrencias,"veces")
