@@ -1,9 +1,7 @@
-print("Hola!")
-nombre=input(str("\nDime tu nombre: "))
-edad=input(str("\nDame tu edad: "))
-if edad > '17':
-    print("\nHola",nombre)
-    print("Eres mayor de edad.")
+nombre=input("\nDime tu nombre: ")
+edad=int(input("\nDame tu edad: "))
+print("\nHola",nombre)
+if edad > 17:
+        print("Eres mayor de edad.")
 else:
-    print("\nHola",nombre)
-    print("Menor de edad.")
+        print("Menor de edad.")
