@@ -1,7 +1,8 @@
 import urllib.request
 webPage = urllib.request.urlopen("https://www.as.com")
 frase = webPage.read()
-print(frase)
+for line in pagina:
+    print(line)
 
 
 
