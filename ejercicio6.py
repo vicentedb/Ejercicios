@@ -1,12 +1,6 @@
 import urllib.request
-webPage = urllib.request.urlopen("https://www.as.com")
-frase = webPage.read()
-for line in pagina:
-    print(line)
-
-
-
-textoABuscar = input("Introduce un texto a buscar:")
-textoABuscarMayusculas = textoABuscar.upper()
-numeroOcurrencias = fraseMayusculas.count(textoABuscarMayusculas)
-print("El texto buscado ha aparecido",numeroOcurrencias,"veces")
+webUrl = urllib.request.urlopen("https://www.as.com")
+data = webUrl.read()
+data=str(data) #Convertimos los bytes recibidos en un string
+print(type(data))
+print(data.count("Real Madrid"))
